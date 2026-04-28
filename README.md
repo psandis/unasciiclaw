@@ -79,6 +79,16 @@ Run `unascii --help` at any time to see the full option list in your terminal.
 | `--version` | `-V` | | Print the version number and exit. |
 | `--help` | `-h` | | Show all available options and exit. |
 
+## Output Formats
+
+| Format | Extension | Notes |
+|--------|-----------|-------|
+| PNG | `.png` | Lossless. Default. Best for pixel-accurate output, no quality loss. |
+| JPG | `.jpg`, `.jpeg` | Lossy. Smaller file size, introduces compression artifacts. |
+| WebP | `.webp` | Lossy or lossless depending on settings. Smaller than PNG, better quality than JPG at the same size. |
+
+For ASCII art with sharp pixel edges, PNG is recommended. JPG and WebP are fine for sharing or display where file size matters.
+
 ## Color Mode
 
 When the input contains ANSI 24-bit color escape codes (`\x1b[38;2;R;G;Bm`), pass `--color` to extract the original RGB value from each character and write a full color image.
