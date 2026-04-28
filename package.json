@@ -1,6 +1,6 @@
 {
   "name": "unasciiclaw",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert ASCII art back to images. CLI tool for the OpenClaw ecosystem.",
   "type": "module",
   "bin": {
@@ -19,14 +19,23 @@
     "format": "biome format --write",
     "prepublishOnly": "pnpm build"
   },
-  "keywords": ["cli", "ascii", "image", "art", "terminal", "openclaw"],
+  "keywords": [
+    "cli",
+    "ascii",
+    "image",
+    "art",
+    "terminal",
+    "openclaw"
+  ],
   "author": "psandis",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/psandis/unasciiclaw.git"
   },
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "packageManager": "pnpm@10.33.2",
   "dependencies": {
     "commander": "^14.0.3",
@@ -41,6 +50,10 @@
     "vitest": "^4.1.5"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["sharp", "esbuild", "@biomejs/biome"]
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild",
+      "@biomejs/biome"
+    ]
   }
 }
