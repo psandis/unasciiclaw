@@ -4,6 +4,10 @@
 
 Convert ASCII art to an image.
 
+<p align="center">
+  <img src="assets/unasciiclaw.png" alt="unasciiclaw" width="665">
+</p>
+
 `unascii` reads ASCII art text, maps each character's position in the ramp back to a brightness value, and writes a PNG, JPG, or WebP image. Each character becomes one pixel. Use `--scale` to upscale.
 
 ## What It Does
