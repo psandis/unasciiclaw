@@ -1,6 +1,6 @@
 {
   "name": "unasciiclaw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert ASCII art back to images. CLI tool for the OpenClaw ecosystem.",
   "type": "module",
   "bin": {

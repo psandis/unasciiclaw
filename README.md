@@ -143,6 +143,7 @@ unasciiclaw/
 │   ├── cat1-large.png
 │   └── cat1-color-large.png
 ├── assets/
+│   └── unasciiclaw.png       # header image
 ├── .gitignore
 ├── LICENSE
 ├── README.md
